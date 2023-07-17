@@ -2,8 +2,9 @@
 name: Publish GitHub Actions Artifacts Example
 
 on:
-  push:
-    branches: [ change-to-master-or-main ]
+  workflow_dispatch:
+  #push:
+    #branches: [ change-to-master-or-main ]
 
 jobs:
        
